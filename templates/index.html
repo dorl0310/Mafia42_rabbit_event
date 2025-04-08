@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>토끼 게임</title>
+  <style>
+    body { margin: 0; background: #000; }
+    canvas { display: block; margin: auto; }
+  </style>
+</head>
+<body>
+  <h2 style="color:white; text-align:center;">게임 로딩 중...</h2>
+  <canvas id="canvas" width="960" height="540"></canvas>
+  <script src="{{ url_for('static', filename='rabbit.js') }}"></script>
+</body>
+</html>
